@@ -2,42 +2,195 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/css/queries.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <script src="src/App.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+      async
+    />
+    <title>Lakshmi Palaparthi</title>
+  </head>
+  <body>
+    <header>
+      <div id="sidenav" class="sidenav">
+        <a href="/">Home</a>
+        <a href="/resume/Lakshmi_Palaparthi_Resume.pdf">Experience</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="#" class="dance-tab">Dance</a>
+        <a href="#" class="contact-tab">Contact</a>
+      </div>
+      <div class="background-cover-box">
+        <h1 id="my_name">Lakshmi Palaparthi</h1>
+        <h3 id="description">Engineer.Choreographer.</h3>
+      </div>
+
+      <div>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://www.facebook.com/lakshmi.palaparthi.7/"
+              target="_blank"
+              ><ion-icon class="ion-facebook" name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/laksh_mi21" target="_blank"
+              ><ion-icon class="ion-twitter" name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/lakshmipalaparthi/"
+              target="_blank"
+              ><ion-icon class="ion-linkedin" name="logo-linkedin"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/palaparthi_lakshmi/"
+              target="_blank"
+              ><ion-icon class="ion-instagram" name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/lvpalaparthi" target="_blank"
+              ><ion-icon class="ion-github" name="logo-github"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCowgcxgT0Q3YeOOijXWj4qA?view_as=subscriber"
+              target="_blank"
+            >
+              <ion-icon class="ion-youtube" name="logo-youtube"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="section-about-me">
+      <div class="row">
+        <div class="me-post">
+          <img id="me-img" src="/images/about_me.jpg" alt="profile" />
+          <p id="section-about-me">
+            Welcome! My name is Lakshmi Palaparthi, I am a software engineer and
+            an emerging choreographer currently based in the Philadelphia, PA
+            area. Be sure to click on the sidebar tabs to get a glimpse into my
+            story and check for any updates.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="modal" class="modal hidden">
+      <button id="close-dance" class="close-modal">&times;</button>
+      <h2 id="dance_header">MY DANCE STORY</h2>
+      <img
+        id="dance_img"
+        src="/images/dance_me.jpg"
+        class="dance-round"
+        alt="dance"
+      />
+      <p id="dance_para">
+        Hi there! I am a rising choreographer and dancer currently based in the
+        Philadelphia, PA area. With over ten years of dancing experience, I have
+        trained in and performed multiple dance forms including Indian classical
+        Bharatanatyam, Bollywood, Hip-hop, and Zumba. As a disciple of a
+        renowned Bharatanatyam dancer, Guru Ramaa Ramesh, I have developed
+        discipline, precision, and grace which are core qualities of classical
+        dance form. As a choreographer, my passion is to combine my classical
+        and western background while creating my unique style through my
+        expressions and body movements. Be sure to follow me on social media and
+        hit subscribe to my YouTube channel for exclusive videos!
+      </p>
+      <button
+        class="subscribe"
+        id="subscribe"
+        onclick="window.location.href= 'https://www.youtube.com/channel/UCowgcxgT0Q3YeOOijXWj4qA?sub_confirmation=1';"
+      >
+        SUBSCRIBE
+      </button>
+    </div>
+
+    <div id="contact" class="contact hidden">
+      <button id="close-contact" class="close-modal">&times;</button>
+      <h2 id="contact_header">Contact Me</h2>
+      <div id="section-form" class="section-form">
+        <form
+          method="POST"
+          action="https://formspree.io/xzbkbdrw"
+          id="my-form"
+          class="contact-form"
+        >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Your message"
+          ></textarea>
+
+          <input
+            id="submit_button"
+            type="submit"
+            name="submit"
+            value="Send it!"
+          />
+          <input
+            id="reset_button"
+            type="reset"
+            name="reset_button"
+            value="Reset it!"
+          />
+        </form>
+      </div>
+      <div id="status"></div>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <footer>
+      <div class="row">
+        <p>Copyright &copy; 2021 by Lakshmi Palaparthi. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="/src/Portfolio.js"></script>
+    <script defer src="/src/script.js"></script>
+    <script src="/src/main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="jquery.waypoints.min.js"></script>
+  </body>
+</html> -->
