@@ -3,10 +3,10 @@ import Nav from "./Nav";
 import Portfolio from "./Portfolio";
 import Dance from "./Dance";
 import Contact from "./Contact";
-import Experience from "./Experience";
 import Footer from "./Footer";
 import Icons from "./Icons";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Document } from "react-pdf";
 
 function App() {
   return (
@@ -16,7 +16,6 @@ function App() {
       <div class="App">
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/experience" exact component={Experience} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/dance" component={Dance} />
           <Route path="/contact" component={Contact} />
@@ -60,11 +59,14 @@ const Home = () => (
               PA area. Be sure to click on the sidebar tabs to get a glimpse
               into my story and check for any updates.
             </p>
+            <Document file="/public/resume/Lakshmi_Palaparthi_Resume.pdf">
+              {" "}
+              resume{" "}
+            </Document>
+            <button id="resume-btn">View Full Resume</button>
           </div>
         </div>
       </section>
-
-      <script src="/src/main.js"></script>
     </body>
   </div>
 );
