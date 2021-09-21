@@ -2,16 +2,13 @@ import "./App.css";
 import { Link } from "react-router-dom";
 function Nav() {
   const navStyle = {
-    color: "white",
+    textDecoration: "none",
   };
   return (
     <nav>
       <div id="sidenav" class="sidenav">
         <Link style={navStyle} to="/">
           <li>Home</li>
-        </Link>
-        <Link style={navStyle} to="/experience">
-          <li>Experience</li>
         </Link>
         <Link style={navStyle} to="/portfolio">
           <li>Portfolio</li>

@@ -1,5 +1,7 @@
 import "./App.css";
 import React from "react";
+import InstagramFeed from "react-ig-feed";
+import "react-ig-feed/dist/index.css";
 
 function Dance() {
   return (
@@ -23,10 +25,19 @@ function Dance() {
         expressions and body movements. Be sure to follow me on social media and
         hit subscribe to my YouTube channel for exclusive videos!
       </p>
+      <div id="insta-feed">
+        <InstagramFeed token={""} counter="5" />
+      </div>
       <button
         class="subscribe"
         id="subscribe"
-        onclick="window.location.href= 'https://www.youtube.com/channel/UCowgcxgT0Q3YeOOijXWj4qA?sub_confirmation=1';"
+        target="_blank"
+        // onclick="window.location.href= 'https://www.youtube.com/channel/UCowgcxgT0Q3YeOOijXWj4qA?sub_confirmation=1';"
+        onClick={(e) => {
+          e.preventDefault();
+          window.location.href =
+            "https://www.youtube.com/channel/UCowgcxgT0Q3YeOOijXWj4qA?sub_confirmation=1";
+        }}
       >
         SUBSCRIBE
       </button>

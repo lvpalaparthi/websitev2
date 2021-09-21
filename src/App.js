@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Icons from "./Icons";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Document } from "react-pdf";
+// import { Document } from "react-pdf";
 
 function App() {
   return (
@@ -59,11 +59,9 @@ const Home = () => (
               PA area. Be sure to click on the sidebar tabs to get a glimpse
               into my story and check for any updates.
             </p>
-            <Document file="/public/resume/Lakshmi_Palaparthi_Resume.pdf">
-              {" "}
-              resume{" "}
-            </Document>
-            <button id="resume-btn">View Full Resume</button>
+            <a target="_blank" href="/resume/Lakshmi_Palaparthi_Resume.pdf">
+              <input id="resume-btn" type="button" value="View Resume" />
+            </a>
           </div>
         </div>
       </section>
