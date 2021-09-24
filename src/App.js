@@ -6,7 +6,6 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Icons from "./Icons";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import { Document } from "react-pdf";
 
 function App() {
   return (
@@ -28,19 +27,8 @@ function App() {
 
 const Home = () => (
   <div>
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
-      <link rel="stylesheet" type="text/css" href="/css/queries.css" />
-      <link rel="stylesheet" type="text/css" href="/css/style.css" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
-        rel="stylesheet"
-        async
-      />
-      <title>Lakshmi Palaparthi</title>
-    </head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/queries.css" />
     <body>
       <header>
         <div class="background-cover-box">

@@ -6,6 +6,7 @@ import "react-ig-feed/dist/index.css";
 function Dance() {
   return (
     <div id="modal" class="modal hidden">
+      <link rel="stylesheet" type="text/css" href="/css/queries.css" />
       <h2 id="dance_header">MY DANCE STORY</h2>
       <img
         id="dance_img"
@@ -26,13 +27,17 @@ function Dance() {
         hit subscribe to my YouTube channel for exclusive videos!
       </p>
       <div id="insta-feed">
-        <InstagramFeed token={""} counter="5" />
+        <InstagramFeed
+          token={
+            "IGQVJXRm9aQktlWERWenRMa2lnc1d3NzJvZAHBIWGVJa2JTbk1tZAE5hY0FlVlBoZAThTeUdfOWx4TWRhaWRCQmxma216T1Fkdl95ZADVuWDI3V0kxdGxtUl9ZAVFM3cVRDNFZA1eThwSTdxOEwzMXNjeF9JWAZDZD"
+          }
+          counter="5"
+        />
       </div>
       <button
         class="subscribe"
         id="subscribe"
         target="_blank"
-        // onclick="window.location.href= 'https://www.youtube.com/channel/UCowgcxgT0Q3YeOOijXWj4qA?sub_confirmation=1';"
         onClick={(e) => {
           e.preventDefault();
           window.location.href =

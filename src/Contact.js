@@ -8,6 +8,7 @@ function Contact() {
   }
   return (
     <div id="contact-wrap">
+      <link rel="stylesheet" type="text/css" href="/css/queries.css" />
       <form onSubmit={handleSubmit}>
         <label id="contact_header" htmlFor="email">
           CONTACT ME
