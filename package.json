@@ -1,6 +1,7 @@
 {
   "name": "routing",
   "version": "0.1.0",
+  "homepage": "https://lakshmipalaparthi.com",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.4",

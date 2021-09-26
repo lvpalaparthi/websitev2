@@ -1,31 +1,9 @@
 /*--------------------------------------------------*/
-/*BASIC SETUP*/
+/*HEADER*/
 /*--------------------------------------------------*/
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-html,
-body {
-  font-family: "Lato", "Arial", sans-serif;
-  text-rendering: optimizeLegibility;
-  overflow-x: hidden;
-
-  font-weight: 300;
-  font-size: 20px;
-}
-/*--------------------------------------------------*/
-/*REUSABLE COMPONENTS*/
-/*--------------------------------------------------*/
-
 section {
   padding: 50px 0;
 }
-/*--------------------------------------------------*/
-/*HEADER*/
-/*--------------------------------------------------*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
     url(/images/real-cover.jpg);
@@ -40,37 +18,25 @@ header {
   left: 50%;
   width: 130vh;
   position: absolute;
-  /* width: 1140px;
-  top: 50%;
-  left: 50%; */
   -webkit-transform: translate(-70%, -70%);
   -ms-transform: translate(-70%, -70%);
   transform: translate(-70%, -70%);
 }
 /*----HEADINGS------*/
 
-h1,
-h3 {
-  font-weight: 300%;
-  text-transform: uppercase;
-  color: #fff;
-}
-
 h1 {
-  margin-bottom: 60px;
-  margin-left: 25%;
-  font-size: 240%;
-  word-spacing: 4px;
-  letter-spacing: 10px;
-}
-
-h3 {
-  word-spacing: 2px;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 110%;
-  margin-top: -5%;
-  margin-bottom: 80px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 300%;
+  word-spacing: 6px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /*--------------------------------------------------*/

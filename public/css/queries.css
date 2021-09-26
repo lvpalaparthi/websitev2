@@ -1,151 +1,172 @@
-/*Big tablet to 1200px (widths smaller than 1140px row)*/
-@media only screen and (max-width: 1360px) {
-  h3 {
+@media only screen and (max-width: 1600px) {
+  #my_name {
+    font-size: 220%;
+    word-spacing: 2px;
+    letter-spacing: 2px;
     margin-left: 15%;
   }
+  .footer-section p {
+    margin-right: 15%;
+  }
+}
+/*Big tablet to 1200px (widths smaller than 1140px row)*/
+@media only screen and (max-width: 1140px) {
+  /*SIDE NAV */
+  /*ICONS*/
+  .social-links {
+    font-size: 80%;
+  }
+
+  /*FOOTER*/
+  .footer-section p {
+    font-size: 80%;
+    margin-right: 5%;
+  }
+  /*HOME*/
   .background-cover-box {
     margin-left: 12%;
     width: 100vh;
   }
-  #contact {
-    width: 60%;
+  #my_name {
+    font-size: 230%;
+    word-spacing: 2px;
+    letter-spacing: 2px;
   }
 }
 
 /*Small tablet to big tablet: from 768px to 1023px*/
 
-@media only screen and (max-width: 1124px) {
-  #my_name {
-    margin-bottom: 60px;
-    margin-left: 33%;
-    margin-right: 0%;
-    font-size: 220%;
-    word-spacing: 4px;
-    letter-spacing: 4px;
+@media only screen and (max-width: 1023px) {
+  /*SIDE NAV */
+  #sidenav {
+    width: 120px;
   }
 
-  #description {
-    word-spacing: 2px;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 100%;
-    margin-top: -5%;
-    margin-bottom: 80px;
-    margin-left: 38%;
-    margin-right: 50%;
+  #sidenav a {
+    font-size: 25px;
   }
+  /*ICONS*/
   .social-links {
-    font-size: 90%;
-  }
-
-  #dance_header {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-  }
-  #dance_para {
-    font-size: 1rem;
-  }
-  #contact_header {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  #close-contact {
-    font-size: 2rem;
-  }
-
-  #contact {
-    width: 80%;
-  }
-  .background-cover-box {
-    margin-left: 15%;
-    max-width: 100vh;
-  }
-  footer {
     font-size: 60%;
   }
-}
 
-/*Small phones to small tablets: from 481px to 767px*/
-
-@media only screen and (max-width: 767px) {
+  /*FOOTER*/
+  .footer-section p {
+    font-size: 20%;
+    margin-right: 10%;
+  }
+  /*HOME*/
   #my_name {
-    margin-bottom: 40px;
-    font-size: 160%;
-    font-weight: 100%;
+    font-size: 150%;
     word-spacing: 2px;
-    letter-spacing: 4px;
-    margin-left: 35%;
+    letter-spacing: 2px;
   }
   .background-cover-box {
     margin-left: 0%;
     max-width: 30vh;
   }
 
-  #description {
-    word-spacing: 2px;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 60%;
-    margin-top: -8%;
-    margin-bottom: 40px;
+  /* DANCE */
+  .subscribe {
+    margin-left: 5%;
+    padding: 5px 5px;
+    font-size: 80%;
+    margin-bottom: 5%;
   }
-  #section-about-me {
-    font-size: 90%;
-    margin-left: 20%;
+  #insta-feed {
+    width: 75%;
   }
-  #me-img {
-    margin-right: 10%;
-    margin-left: 50%;
+  #dance_header {
+    margin-top: 8%;
+    font-size: 150%;
   }
-  footer {
-    font-size: 50%;
-    margin-left: 20%;
-  }
-  .social-links {
-    font-size: 90%;
+  /*CONTACT*/
+  #contact-wrap {
+    padding-top: 10%;
+    margin-bottom: 35%;
   }
   #contact_header {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-  #contact {
-    width: 80%;
-    padding: 3rem;
-    border-radius: 5px;
-    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-    z-index: 10;
+    font-size: 150%;
   }
   #submit_button,
   #reset_button {
-    padding: 10px 10px;
-    font-weight: 300%;
-    margin-right: 4%;
-    margin-left: 0%;
-    border-radius: 200px;
-    font-size: 100%;
+    padding: 10px 12px;
+    font-size: 80%;
   }
+}
 
-  #dance_header {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
-  #dance_para {
-    font-size: 0.8rem;
-  }
-  #close-dance {
-    font-size: 1.5rem;
-  }
-  #subscribe {
-    padding: 2px 2px;
-    margin-top: 4%;
-  }
+/*Small phones to small tablets: from 481px to 767px*/
+
+@media only screen and (max-width: 767px) {
+  /*SIDE NAV */
   #sidenav {
-    width: 140px;
+    width: 120px;
   }
 
   #sidenav a {
     font-size: 25px;
+  }
+  /*ICONS*/
+  .social-links {
+    font-size: 60%;
+  }
+
+  /*FOOTER*/
+  .footer-section p {
+    font-size: 20%;
+    margin-left: 15%;
+  }
+  /*HOME*/
+  #my_name {
+    font-size: 100%;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-left: 25%;
+  }
+  .background-cover-box {
+    margin-left: 0%;
+    max-width: 30vh;
+  }
+
+  #section-about-me {
+    font-size: 90%;
+    margin-left: 10%;
+  }
+  #me-img {
+    margin-right: 5%;
+    margin-left: 45%;
+  }
+  #resume-btn {
+    padding: 5px 5px;
+    margin-right: -10%;
+  }
+  /* DANCE */
+  .subscribe {
+    margin-left: 15%;
+    padding: 5px 5px;
+    font-size: 80%;
+    margin-bottom: 5%;
+  }
+  #insta-feed {
+    width: 60%;
+    padding-left: 5%;
+  }
+  #dance_header {
+    margin-top: 8%;
+    font-size: 150%;
+  }
+  /*CONTACT*/
+  #contact-wrap {
+    padding-top: 20%;
+    margin-bottom: 35%;
+  }
+  #contact_header {
+    font-size: 150%;
+  }
+  #submit_button,
+  #reset_button {
+    padding: 8px 10px;
+    font-size: 80%;
   }
 }
 
@@ -154,21 +175,17 @@
 @media only screen and (max-width: 480px) {
   /*SIDE NAV */
   #sidenav {
-    width: 140px;
+    width: 90px;
   }
 
   #sidenav a {
-    font-size: 25px;
+    font-size: 15px;
   }
-  /*ICONS*/
-  .social-links {
-    font-size: 90%;
-    margin-left: 100%;
-    margin-right: -12%;
-  }
+
   /*FOOTER */
   .footer-section p {
-    font-size: 38%;
+    font-size: 10%;
+    margin-left: 10%;
   }
 
   /*HOME*/
@@ -176,78 +193,76 @@
     margin-left: 0%;
     max-width: 10vh;
   }
-
-  #my_name {
-    margin-bottom: 20px;
-    margin-left: 50%;
-    font-size: 100%;
-    word-spacing: 2px;
-    letter-spacing: 6px;
+  .social-links {
+    font-size: 50%;
+    margin-bottom: 2%;
   }
 
-  #description {
-    word-spacing: 2px;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 40%;
-    margin-left: 65%;
-    margin-top: -12%;
+  #my_name {
+    font-size: 70%;
+    word-spacing: 0px;
+    letter-spacing: 0px;
   }
 
   #me-img {
-    margin-right: 10%;
-    margin-left: 50%;
+    margin-right: 25%;
+    margin-left: 42%;
   }
   #section-about-me {
     font-size: 60%;
-    margin-left: 20%;
+    margin-left: 10%;
   }
   #resume-btn {
     padding: 5px 5px;
     font-size: 80%;
-    margin-right: -15%;
+    margin-right: -6%;
   }
   /*PORTFOLIO*/
   h1 {
-    margin-left: 8%;
+    margin-left: 6%;
   }
   hr {
     width: 60%;
-    margin-right: 13%;
+    margin-right: 18%;
   }
   .welcome-note {
-    margin-left: 10%;
+    margin-left: 12%;
   }
   #collapsible-content {
-    margin-left: 10%;
+    margin-left: 4%;
     margin-bottom: 35%;
   }
   /*DANCE*/
   .subscribe {
-    margin-left: 15%;
+    margin-left: 12%;
+    padding: 5px 5px;
+    font-size: 80%;
+    margin-bottom: 5%;
   }
   .dance-round {
     margin-top: 8%;
   }
   #dance_para {
-    margin-left: 12%;
+    margin-left: 10%;
+    font-size: 50%;
   }
   #insta-feed {
-    width: 60%;
-    padding-left: 12%;
+    width: 50%;
+    padding-left: 10%;
   }
   #dance_header {
     margin-top: 8%;
     margin-left: 8%;
-    font-size: 150%;
+    font-size: 130%;
   }
   /*CONTACT*/
-  #contact-wrap {
-    padding-top: 30%;
-    margin-left: 10%;
-    margin-bottom: 35%;
+  #submit_button,
+  #reset_button {
+    padding: 5px 5px;
+    font-size: 80%;
   }
-  #contact_header {
-    font-size: 150%;
+  #portfolio-btn {
+    padding: 10px 10px;
+    font-size: 50%;
   }
 }
