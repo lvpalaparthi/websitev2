@@ -1,7 +1,10 @@
 {
   "name": "routing",
+  "homepage": "https://lakshmipalaparthi.com/",
+  "dancepage": "https://lakshmipalaparthi.com/dance",
+  "contactpage": "https://lakshmipalaparthi.com/contact",
+  "portfoliopage": "https://lakshmipalaparthi.com/portfolio",
   "version": "0.1.0",
-  "homepage": "https://lakshmipalaparthi.com",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.4",

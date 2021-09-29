@@ -9,7 +9,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
-function Footer() {
+const Footer = () => {
   return (
     <div>
       <ul class="social-links">
@@ -73,6 +73,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

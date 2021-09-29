@@ -26,20 +26,18 @@
 
   .btn {
     background-color: rgb(34, 109, 230);
-    color: white;
     cursor: pointer;
     text-decoration: none;
     font-size: 16px;
     transition-duration: 0.4s;
     display: inline-block;
     padding: 10px 30px;
-    border-radius: 200px;
     border: none;
     margin-right: 2%;
+    border: 3px solid black;
   }
   .btn:hover {
     background-color: blue;
-    color: white;
   }
 }
 
@@ -66,6 +64,56 @@
   &.is-open {
     &:after {
       content: "\2796";
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Collapsible__trigger {
+    font-size: 12px;
+    &:after {
+      content: "\02795";
+      font-size: 8px;
+      margin-left: 5px;
+    }
+  }
+  .Collapsible {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  #portfolio-btn {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Collapsible__trigger {
+    font-size: 8px;
+    &:after {
+      content: "\02795";
+      font-size: 6px;
+      margin-left: 5px;
+    }
+  }
+  .Collapsible {
+    margin-left: -10px;
+  }
+  #portfolio-btn {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .Collapsible__contentInner {
+    p {
+      margin-bottom: 10px;
+      font-size: 10px;
+      line-height: 20px;
+      text-align: center;
+      margin-left: -3px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }

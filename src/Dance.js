@@ -3,7 +3,7 @@ import React from "react";
 import InstagramFeed from "react-ig-feed";
 import "react-ig-feed/dist/index.css";
 
-function Dance() {
+const Dance = () => {
   return (
     <div id="modal" class="modal hidden">
       <link rel="stylesheet" type="text/css" href="/css/queries.css" />
@@ -48,6 +48,6 @@ function Dance() {
       </button>
     </div>
   );
-}
+};
 
 export default Dance;

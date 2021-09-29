@@ -3,7 +3,7 @@ import React from "react";
 import Collapsible from "react-collapsible";
 import "./Collapsible.scss";
 
-function Portfolio() {
+const Portfolio = () => {
   return (
     <div id="content-wrap">
       <link rel="stylesheet" type="text/css" href="/css/queries.css" />
@@ -24,8 +24,11 @@ function Portfolio() {
       </p>
       <hr />
       <div id="collapsible-content">
-        <Collapsible trigger="Encryption in Persistent Memory Survey">
-          <p class="project-description">
+        <Collapsible
+          id="collapsible-title"
+          trigger="Encryption in Persistent Memory Survey"
+        >
+          <p id="project-description">
             This report surverys some of the efficient practices to encrypt
             persistent memory. Each approach explains the implementation with
             desired results proving to be a better solution in certain scenarios
@@ -45,8 +48,11 @@ function Portfolio() {
             Read Survey
           </a>
         </Collapsible>
-        <Collapsible trigger="Augmented Reality Navigation App">
-          <p class="project-description">
+        <Collapsible
+          id="collapsible-title"
+          trigger="Augmented Reality Navigation App"
+        >
+          <p id="project-description">
             Our Navigation Android App focuses on using augmented reality to
             calculate the closest blue light on campus with respect to the
             user's location. Feaures like geolocation, acclerometer, and compass
@@ -79,6 +85,6 @@ function Portfolio() {
       </div>
     </div>
   );
-}
+};
 
 export default Portfolio;

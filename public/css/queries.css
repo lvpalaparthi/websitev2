@@ -6,7 +6,12 @@
     margin-left: 15%;
   }
   .footer-section p {
-    margin-right: 15%;
+    margin-right: 18%;
+    margin-left: 20%;
+    font-size: 80%;
+  }
+  #contact-wrap {
+    margin-left: 5%;
   }
 }
 /*Big tablet to 1200px (widths smaller than 1140px row)*/
@@ -20,7 +25,8 @@
   /*FOOTER*/
   .footer-section p {
     font-size: 80%;
-    margin-right: 5%;
+    margin-right: 10%;
+    margin-left: 16%;
   }
   /*HOME*/
   .background-cover-box {
@@ -31,6 +37,9 @@
     font-size: 230%;
     word-spacing: 2px;
     letter-spacing: 2px;
+  }
+  #contact-wrap {
+    margin-left: 5%;
   }
 }
 
@@ -53,7 +62,8 @@
   /*FOOTER*/
   .footer-section p {
     font-size: 20%;
-    margin-right: 10%;
+    margin-left: 18%;
+    margin-right: 12%;
   }
   /*HOME*/
   #my_name {
@@ -84,6 +94,7 @@
   #contact-wrap {
     padding-top: 10%;
     margin-bottom: 35%;
+    margin-left: 5%;
   }
   #contact_header {
     font-size: 150%;
@@ -113,8 +124,8 @@
 
   /*FOOTER*/
   .footer-section p {
-    font-size: 20%;
-    margin-left: 15%;
+    font-size: 8px;
+    margin-left: 18%;
   }
   /*HOME*/
   #my_name {
@@ -159,6 +170,7 @@
   #contact-wrap {
     padding-top: 20%;
     margin-bottom: 35%;
+    margin-left: 8%;
   }
   #contact_header {
     font-size: 150%;
@@ -184,8 +196,8 @@
 
   /*FOOTER */
   .footer-section p {
-    font-size: 10%;
-    margin-left: 10%;
+    font-size: 5px;
+    margin-left: 18%;
   }
 
   /*HOME*/
@@ -219,7 +231,7 @@
   }
   /*PORTFOLIO*/
   h1 {
-    margin-left: 6%;
+    margin-left: 14%;
   }
   hr {
     width: 60%;
@@ -229,9 +241,14 @@
     margin-left: 12%;
   }
   #collapsible-content {
-    margin-left: 4%;
+    margin-left: 16%;
     margin-bottom: 35%;
   }
+  #project-description {
+    font-size: 10px;
+    margin-right: 10%;
+  }
+
   /*DANCE*/
   .subscribe {
     margin-left: 12%;
@@ -264,5 +281,8 @@
   #portfolio-btn {
     padding: 10px 10px;
     font-size: 50%;
+  }
+  #contact-wrap {
+    margin-left: 10%;
   }
 }

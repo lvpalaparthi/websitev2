@@ -6,22 +6,22 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Nav />
       <div class="App">
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/dance" component={Dance} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/portfolio" exact component={Portfolio} />
+          <Route path="/dance" exact component={Dance} />
+          <Route path="/contact" exact component={Contact} />
         </Switch>
       </div>
       <Footer />
     </Router>
   );
-}
+};
 
 const Home = () => (
   <div>
@@ -33,8 +33,6 @@ const Home = () => (
           Lakshmi Palaparthi
           <br /> Engineer.Choreographer.
         </h1>
-        {/* <h1 id="my_name">Lakshmi Palaparthi</h1>
-        <h3 id="description">Engineer.Choreographer.</h3> */}
       </div>
     </header>
 
@@ -47,7 +45,7 @@ const Home = () => (
           area. Be sure to click on the sidebar tabs to get a glimpse into my
           story and check for any updates.
         </p>
-        <a target="_blank" href="/resume/Lakshmi_Palaparthi_Resume.pdf">
+        <a target="_blank" href="/resume/LPResume.pdf">
           <input id="resume-btn" type="button" value="View Resume" />
         </a>
       </div>

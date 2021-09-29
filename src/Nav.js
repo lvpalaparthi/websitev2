@@ -1,6 +1,6 @@
 import "./App.css";
 import { Link } from "react-router-dom";
-function Nav() {
+const Nav = () => {
   const navStyle = {
     textDecoration: "none",
   };
@@ -22,6 +22,6 @@ function Nav() {
       </div>
     </nav>
   );
-}
+};
 
 export default Nav;
